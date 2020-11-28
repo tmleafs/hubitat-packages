@@ -1,4 +1,16 @@
 {
   "author": "Taylor Brown(@thecloudtaylor)",
-  "gitHubUrl": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-packages/main/repository.json"
+  "gitHubUrl": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-packages/main/repository.json",
+  "packages": [
+    {
+      "id": "0e3754b1-ab43-4a29-a995-017ffd106f99",
+      "name": "Honeywell Home",
+      "category": "Integrations",
+      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-honeywell/main/packageManifest.json",
+      "description": "Honeywell Home Intergraion",
+      "tags": [
+        "Temperature & Humidity"
+      ]
+    }
+  ]
 }
