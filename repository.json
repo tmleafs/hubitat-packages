@@ -11,6 +11,16 @@
       "tags": [
         "Temperature & Humidity"
       ]
+    },
+    {
+      "id": "e853ea30-0aa7-4c81-94c8-f154b234aa2d",
+      "name": "August Home",
+      "category": "Security",
+      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-augustlock/main/packageManifest.json",
+      "description": "App and Driver for August Home",
+      "tags": [
+        "Locks"
+      ]
     }
   ]
 }
