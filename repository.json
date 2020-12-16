@@ -6,7 +6,7 @@
       "id": "0e3754b1-ab43-4a29-a995-017ffd106f99",
       "name": "Honeywell Home",
       "category": "Integrations",
-      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-honeywell/main/packageManifest.json",
+      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-packages/main/packages/honeywellManifest.json",
       "description": "Honeywell Home Intergraion",
       "tags": [
         "Temperature & Humidity"
@@ -16,7 +16,7 @@
       "id": "e853ea30-0aa7-4c81-94c8-f154b234aa2d",
       "name": "August Home",
       "category": "Security",
-      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-augustlock/main/packageManifest.json",
+      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-packages/main/packages/augustManifest.json",
       "description": "App and Driver for August Home",
       "tags": [
         "Locks"
