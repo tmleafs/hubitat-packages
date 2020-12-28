@@ -4,12 +4,13 @@
   "packages": [
     {
       "id": "0e3754b1-ab43-4a29-a995-017ffd106f99",
-      "name": "Honeywell Home",
+      "name": "Honeywell Home - Lyric and T Series",
       "category": "Integrations",
       "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-packages/main/packages/honeywellManifest.json",
-      "description": "Honeywell Home Intergraion",
+      "description": "Honeywell Home Intergraion Lyric and T Series Devices (cloud)",
       "tags": [
-        "Temperature & Humidity"
+        "Temperature & Humidity",
+        "Climate Control"
       ]
     },
     {
