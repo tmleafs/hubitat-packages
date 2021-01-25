@@ -1,19 +1,19 @@
 {
   "packageName": "Honeywell Home",
   "author": "Taylor Brown(@thecloudtaylor)",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "minimumHEVersion": "2.2.4",
-  "dateReleased": "2021-01-23",
+  "dateReleased": "2021-01-25",
   "apps": [
     {
       "id": "fe2bb542-854f-47b4-8d20-cde1ead99f2d",
       "name": "Honeywell Home",
       "namespace": "thecloudtaylor",
-      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-honeywell/v0.2.4-beta1/honeywellhomeapp.groovy",
+      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-honeywell/v0.2.5-beta1/honeywellhomeapp.groovy",
       "required": true,
       "oauth": true,
       "primary": false,
-      "version": "0.2.4"
+      "version": "0.2.5"
     }
   ],
   "drivers": [
@@ -21,18 +21,18 @@
       "id": "390cc6e1-acbb-4af3-be52-7a68e4bcc580",
       "name": "Honeywell Home Thermostat",
       "namespace": "thecloudtaylor",
-      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-honeywell/v0.2.4-beta1/honeywellhomedriver.groovy",
+      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-honeywell/v0.2.5-beta1/honeywellhomedriver.groovy",
       "required": true,
-      "version": "0.2.4"
+      "version": "0.2.5"
     },
     {
       "id": "ebe84e87-e064-4029-9e5b-ad0cb7939230",
       "name": "Honeywell Home Remote Sensor",
       "namespace": "thecloudtaylor",
-      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-honeywell/v0.2.4-beta1/honeywellremotesensordriver.groovy",
+      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-honeywell/v0.2.5-beta1/honeywellremotesensordriver.groovy",
       "required": false,
-      "version": "0.2.4"
+      "version": "0.2.5"
     }
   ],
-  "releaseNotes": "Fixed so that the occupancy attribute matches what is in the mobile app"
+  "releaseNotes": "Fix for setThermostatSetPoint endless retry on error"
 }
