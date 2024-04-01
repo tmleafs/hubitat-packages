@@ -1,0 +1,41 @@
+{
+  "packageName": "Yale Home",
+  "author": "Steven Dale",
+  "version": "1.0.0",
+  "minimumHEVersion": "0.0",
+  "dateReleased": "2024-04-01",
+  "apps": [
+    {
+      "id": "826b189b-a9d3-46a8-87ca-d2d7f9b8add4",
+      "name": "Yale Home",
+      "namespace": "tmleafs",
+      "location": "https://raw.githubusercontent.com/tmleafs/hubitat-yalehomelock/main/yalehomeapp.groovy",
+      "required": true,
+      "oauth": false,
+      "primary": false
+    }
+  ],
+  "drivers": [
+    {
+      "id": "7a6c32e7-4c16-4be8-b598-ae910f62ba29",
+      "name": "Yale Home Lock with DoorSense",
+      "namespace": "tmleafs",
+      "location": "https://raw.githubusercontent.com/tmleafs/hubitat-yalehomelock/main/drivers/yalehome_lock_doorsense.groovy",
+      "required": true
+    },
+    {
+      "id": "e3ba876d-4e1c-412f-833a-6dcc52b581bd",
+      "name": "Yale Home Lock",
+      "namespace": "tmleafs",
+      "location": "https://raw.githubusercontent.com/tmleafs/hubitat-yalehomelock/main/drivers/yalehome_lock.groovy",
+      "required": true
+    },
+    {
+      "id": "648d4cad-133c-4343-aad5-21cd9639f7b0",
+      "name": "Yale Home Keypad",
+      "namespace": "tmleafs",
+      "location": "https://raw.githubusercontent.com/tmleafs/hubitat-yalehomelock/main/drivers/yalehome_keypad.groovy",
+      "required": false
+    }
+  ]
+}
