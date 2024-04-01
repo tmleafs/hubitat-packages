@@ -1,27 +1,13 @@
 {
-  "author": "Taylor Brown(@thecloudtaylor)",
-  "gitHubUrl": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-packages/main/repository.json",
+  "author": "Steven Dale",
+  "gitHubUrl": "https://raw.githubusercontent.com/tmleafs/hubitat-packages/main/repository.json",
   "packages": [
     {
-      "id": "0e3754b1-ab43-4a29-a995-017ffd106f99",
-      "name": "Honeywell Home - Lyric and T Series",
+      "id": "d6d4fa41-a725-4b01-b879-64c9303bf743",
+      "name": "Yale Home",
       "category": "Integrations",
-      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-packages/main/packages/honeywellManifest.json",
-      "description": "Honeywell Home Intergraion Lyric and T Series Devices (cloud)",
-      "tags": [
-        "Temperature & Humidity",
-        "Climate Control"
-      ]
-    },
-    {
-      "id": "e853ea30-0aa7-4c81-94c8-f154b234aa2d",
-      "name": "August Home",
-      "category": "Security",
-      "location": "https://raw.githubusercontent.com/thecloudtaylor/hubitat-packages/main/packages/augustManifest.json",
-      "description": "App and Driver for August Home",
-      "tags": [
-        "Locks"
-      ]
+      "location": "https://raw.githubusercontent.com/tmleafs/hubitat-packages/main/packages/yalehomeManifest.json",
+      "description": "Yale Home WiFi Bridge Locks & Keypads"
     }
   ]
 }
